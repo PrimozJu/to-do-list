@@ -1,0 +1,10 @@
+{
+    "search.exclude": {
+        ".code-search": true,
+        "**/*.code-search": false,
+        "**/bower_components": false,
+        "**/node_modules": false,
+        "bower_components": true,
+        "node_modules": true
+    }
+}

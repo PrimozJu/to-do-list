@@ -1,0 +1,31 @@
+.todo_list {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+  
+  .todo_item {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+  }
+  
+  .todo_content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .todo_content p {
+    margin: 0;
+    flex-grow: 1;
+  }
+  
+  .todo_actions {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
